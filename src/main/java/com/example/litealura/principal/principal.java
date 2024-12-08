@@ -29,16 +29,6 @@ public class principal {
 
     public  void muestraMenu() {
         var json = consumoApi.obtenerDatos(URL_BASE);
-        System.out.println(json);
-        var datos = convierteDatos.obtenerDatos(json, Datos.class);
-        System.out.println(datos);
-
-        System.out.println("Lista top 10");
-        datos.resultados().stream()
-                .sorted(Comparator.comparing(DatosLibros::numeroDeDescargas).reversed())
-                .limit(10)
-                .map(l -> l.titulo().toUpperCase())
-                .forEach(System.out::println);
 
         var opcion = -1;
         while (opcion != 0) {
