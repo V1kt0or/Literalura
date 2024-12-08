@@ -2,7 +2,9 @@
 # LiterAlura 🌎
 
 Este es un proyecto de solicitudes a una API de libros, manipulación datos JSON, guardado en una base de datos,  utilizando la API de [Gutendex-API](https://gutendex.com/). El programa permite buscar.
+
 ![Captura de Pantalla](./CM1.PNG)
+
 ![Captura de Pantalla2](./CM2.PNG)
 ## Características
 
